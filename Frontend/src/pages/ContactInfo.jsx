@@ -21,7 +21,7 @@ const ContactInfo = ({ isOpen, onClose }) => {
 
     if (name && email && phone && subject && message) {
       try {
-        const response = await fetch('http://localhost:5000/api/contact', {
+        const response = await fetch('https://mit-website-orpin.vercel.app/api/contact', {  // Updated URL
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ const ContactInfo = ({ isOpen, onClose }) => {
         <FaTimes className="close-icon" onClick={onClose} />
         {!formSubmitted ? (
           <>
-            <Typography variant="h5" className="modal-title" style={{marginBottom: '30px'}}>Contact Us</Typography>
+            <Typography variant="h5" className="modal-title" style={{ marginBottom: '30px' }}>Contact Us</Typography>
             <Typography className="modal-description">
               Mahisha India Technologies is committed to providing innovative web solutions to meet your business needs. Please fill out the form below to get in touch with us.
             </Typography>
@@ -112,7 +112,7 @@ const ContactInfo = ({ isOpen, onClose }) => {
                 rows={4}
               />
               <div className="modal-actions">
-                <Button type="submit" variant="contained" color="primary" className="submit-btn" style={{marginRight: '15px'}}>Submit</Button>
+                <Button type="submit" variant="contained" color="primary" className="submit-btn" style={{ marginRight: '15px' }}>Submit</Button>
                 <Button variant="outlined" color="secondary" onClick={onClose}>Close</Button>
               </div>
             </form>

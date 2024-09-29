@@ -82,7 +82,7 @@ const ReachUs = () => {
       formData.append('file', formValues.file); // Add file to the form data
 
       try {
-        const response = await axios.post('http://localhost:5000/api/reach-us', formData, {
+        const response = await axios.post('https://mit-website-orpin.vercel.app/api/reach-us', formData, {
           headers: { 'Content-Type': 'multipart/form-data' },
         });
         if (response.data.success) {
