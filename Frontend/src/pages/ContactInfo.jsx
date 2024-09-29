@@ -21,7 +21,7 @@ const ContactInfo = ({ isOpen, onClose }) => {
 
     if (name && email && phone && subject && message) {
       try {
-        const response = await fetch('https://mit-website-orpin.vercel.app/api/contact', {  // Updated URL
+        const response = await fetch('https://mahishaindia-tech-rjovd05yf-mahisha-india-technologies-projects.vercel.app/api/contact', {  // Updated URL
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

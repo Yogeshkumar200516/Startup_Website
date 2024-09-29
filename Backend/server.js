@@ -13,7 +13,9 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin: 'https://mahisha-india-technologies.vercel.app' // allow your frontend URL
+    origin: 'https://mahisha-india-technologies-f7s9jy4hr.vercel.app', // Allow your frontend URL
+    methods: ['GET', 'POST'],
+    credentials: true, // Optional: If you need to send cookies or other credentials
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
