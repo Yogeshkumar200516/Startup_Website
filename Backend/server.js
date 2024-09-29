@@ -12,7 +12,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: 'https://mahisha-india-technologies.vercel.app' // allow your frontend URL
+}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -65,95 +67,96 @@ const upload = multer({
 
 // Route to handle 'Contact Us' form submission (with file upload)
 app.post('/api/contact', upload.none(), (req, res) => {
-  try {
-      const { name, email, phone, subject, message } = req.body;
+    try {
+        const { name, email, phone, subject, message } = req.body;
 
-      const query = 'INSERT INTO contact_info (name, email, phone, subject, message) VALUES (?, ?, ?, ?, ?)';
-      db.query(query, [name, email, phone, subject, message], (error, results) => {
-          if (error) {
-              console.error('Database insertion error:', error);
-              return res.status(500).json({ error: 'Failed to submit contact info' });
-          }
+        const query = 'INSERT INTO contact_info (name, email, phone, subject, message) VALUES (?, ?, ?, ?, ?)';
+        db.query(query, [name, email, phone, subject, message], (error, results) => {
+            if (error) {
+                console.error('Database insertion error:', error);
+                return res.status(500).json({ error: 'Failed to submit contact info' });
+            }
 
-          // Prepare email content for the Contact Us form
-          const emailContent = {
-              name,
-              email,
-              phone,
-              subject,
-              message,
-          };
+            // Prepare email content for the Contact Us form
+            const emailContent = {
+                name,
+                email,
+                phone,
+                subject,
+                message,
+            };
 
-          // Send email
-          sendEmail(email, 'New Contact Info Submission', emailContent);
+            // Send email
+            sendEmail(email, 'New Contact Info Submission', emailContent);
 
-          res.status(200).json({ message: 'Contact info submitted successfully' });
-      });
-  } catch (err) {
-      console.error('Server error:', err);
-      res.status(500).json({ error: 'Server error occurred during contact submission' });
-  }
+            res.status(200).json({ message: 'Contact info submitted successfully' });
+        });
+    } catch (err) {
+        console.error('Server error:', err);
+        res.status(500).json({ error: 'Server error occurred during contact submission' });
+    }
 });
 
+// Route to handle 'Reach Us' form submission (with file upload)
 app.post('/api/reach-us', upload.single('file'), (req, res) => {
-  const {
-      fullName, email, phone, company, projectType, budgetRange,
-      startDate, deadline, communicationMethod, referenceLink,
-      projectDescription, additionalComments
-  } = req.body;
+    const {
+        fullName, email, phone, company, projectType, budgetRange,
+        startDate, deadline, communicationMethod, referenceLink,
+        projectDescription, additionalComments
+    } = req.body;
 
-  const fileName = req.file ? req.file.filename : null;
+    const fileName = req.file ? req.file.filename : null;
 
-  // Validate form fields
-  if (!fullName || !email || !phone || !projectType || !budgetRange || !projectDescription) {
-      return res.status(400).json({ success: false, message: 'Required fields are missing.' });
-  }
+    // Validate form fields
+    if (!fullName || !email || !phone || !projectType || !budgetRange || !projectDescription) {
+        return res.status(400).json({ success: false, message: 'Required fields are missing.' });
+    }
 
-  const projectInfo = {
-      full_name: fullName,
-      email,
-      phone,
-      company,
-      project_type: projectType,
-      budget_range: budgetRange,
-      start_date: startDate || null,
-      deadline: deadline || null,
-      communication_method: communicationMethod || null,
-      reference_link: referenceLink || '',
-      project_description: projectDescription,
-      additional_comments: additionalComments || '',
-      file_name: fileName,
-  };
+    const projectInfo = {
+        full_name: fullName,
+        email,
+        phone,
+        company,
+        project_type: projectType,
+        budget_range: budgetRange,
+        start_date: startDate || null,
+        deadline: deadline || null,
+        communication_method: communicationMethod || null,
+        reference_link: referenceLink || '',
+        project_description: projectDescription,
+        additional_comments: additionalComments || '',
+        file_name: fileName,
+    };
 
-  const query = 'INSERT INTO project_info SET ?';
-  db.query(query, projectInfo, (error, results) => {
-      if (error) {
-          console.error('Database error:', error);
-          return res.status(500).json({ success: false, error: 'Database insertion failed' });
-      }
+    const query = 'INSERT INTO project_info SET ?';
+    db.query(query, projectInfo, (error, results) => {
+        if (error) {
+            console.error('Database error:', error);
+            return res.status(500).json({ success: false, error: 'Database insertion failed' });
+        }
 
-      // Prepare email content for the Reach Us form
-      const emailContent = {
-          fullName,
-          email,
-          phone,
-          company,
-          projectType,
-          budgetRange,
-          startDate: startDate || 'N/A',
-          deadline: deadline || 'N/A',
-          communicationMethod: communicationMethod || 'N/A',
-          referenceLink: referenceLink || 'N/A',
-          projectDescription,
-          additionalComments: additionalComments || 'N/A',
-          fileName,
-      };
+        // Prepare email content for the Reach Us form
+        const emailContent = {
+            fullName,
+            email,
+            phone,
+            company,
+            projectType,
+            budgetRange,
+            startDate: startDate || 'N/A',
+            deadline: deadline || 'N/A',
+            communicationMethod: communicationMethod || 'N/A',
+            referenceLink: referenceLink || 'N/A',
+            projectDescription,
+            additionalComments: additionalComments || 'N/A',
+            fileName,
+        };
 
-      // Send email with attachment if file exists
-      sendEmail(email, 'New Reach Us Form Submission', emailContent, req.file);
+        // Send email with attachment if file exists
+        sendEmail(email, 'New Reach Us Form Submission', emailContent, req.file);
 
-      res.status(200).json({ success: true, message: 'Form submitted successfully!' });
-  });
+        res.status(200).json({ success: true, message: 'Form submitted successfully!' });
+    });
 });
 
 // Start the server
