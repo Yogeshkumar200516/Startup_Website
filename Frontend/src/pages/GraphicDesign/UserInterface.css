@@ -1,0 +1,286 @@
+/* UserInterfaces.css */
+
+/* General Page Container */
+.user-interfaces-page-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero Section */
+  .user-interfaces-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f5edda, #f1cc6e, #eadfc3, #eeb62a);
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .user-interfaces-hero-content {
+    max-width: 50%;
+  }
+  
+  .user-interfaces-hero-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-hero-subheading {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-cta-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-interfaces-cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-interfaces-hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: 300px;
+  }
+  
+  /* Introduction Section */
+  .user-interfaces-introduction-section {
+    padding: 40px 20px;
+    background: #fff;
+  }
+  
+  .user-interfaces-introduction-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-introduction-paragraph {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* UI Design Process Section */
+  .user-interfaces-process-section {
+    padding: 40px 20px;
+    background: #f9f9f9;
+  }
+  
+  .user-interfaces-process-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-process-step {
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-process-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b8860b;
+    text-align: center;
+  }
+  
+  .user-interfaces-process-description {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Core UI Design Services Section */
+  .user-interfaces-services-section {
+    padding: 40px 20px;
+    background: #fff;
+  }
+  
+  .user-interfaces-services-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-service-card {
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-service-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b8860b;
+    text-align: center;
+  }
+  
+  .user-interfaces-service-description {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Why Choose Us Section */
+  .user-interfaces-why-choose-us-section {
+    padding: 40px 20px;
+    background: #f4f4f4;
+  }
+  
+  .user-interfaces-why-choose-us-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-why-choose-us-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-interfaces-why-choose-us-item {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Portfolio Section */
+  .user-interfaces-portfolio-section {
+    padding: 40px 20px;
+    background: #fff;
+  }
+  
+  .user-interfaces-portfolio-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-case-study {
+    margin-bottom: 30px;
+  }
+  
+  .user-interfaces-case-study-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b8860b;
+    margin-bottom: 10px;
+  }
+  
+  .user-interfaces-case-study-client {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .user-interfaces-case-study-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Blog Section */
+  .user-interfaces-blog-section {
+    padding: 40px 20px;
+    background: #f9f9f9;
+  }
+  
+  .user-interfaces-blog-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-blog-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+    text-align: center;
+  }
+  
+  /* Additional Features Section */
+  .user-interfaces-features-section {
+    padding: 40px 20px;
+    background: #fff;
+  }
+  
+  .user-interfaces-features-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-feature {
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-feature-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b8860b;
+    text-align: center;
+  }
+  
+  .user-interfaces-feature-description {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Contact Us Section */
+  .user-interfaces-contact-section {
+    padding: 40px 20px;
+    background: linear-gradient(190deg, #f7f1e3, #f4d996, #f3e4c0, #ecb62d);
+    text-align: center;
+  }
+  
+  .user-interfaces-contact-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-contact-paragraph {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .user-interfaces-contact-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-interfaces-contact-button:hover {
+    background-color: #0056b3;
+  }
+  

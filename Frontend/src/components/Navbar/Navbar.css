@@ -1,0 +1,382 @@
+/* Base Navbar Styles */
+.navbarContainer {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .appBar {
+    background-color: white;
+    color: #90A4AE;
+    border-bottom: 1px solid #CFD8DC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+  }
+  
+  .activeButton {
+    color: #FFD700; /* Gold color */
+    background-color: rgba(255, 215, 0, 0.1); /* Optional: a light background for active state */
+    border-bottom: 2px solid #FFD700; /* Add a bottom border to highlight */
+  }
+  
+  
+  .toolbar {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    padding: 0 16px;
+  }
+  
+  .logoImage {
+    width: 55px;
+    height: 55px;
+    border-radius: 2px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .mitTypography {
+    color: #b8860b;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 24px;
+  }
+  
+  .mitTypography:hover {
+    color: #FFA726;
+  }
+  
+  .search {
+    position: relative;
+    background-color: white;
+    border: 1px solid #CFD8DC;
+    border-radius: 5px;
+    margin-left: 80px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .searchIconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8860b;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .searchIcon {
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 300;
+  }
+  
+  .styledInputBase {
+    color: inherit;
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .styledInputBase input {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .styledButton {
+    color: #9E9E9E;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .styledButton3 {
+    color: #9E9E9E;
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 8px 20px;
+    width: 100%;
+  }
+  
+  .styledButton:hover {
+    color: black;
+  }
+  
+  .styledButton:focus {
+    color: #b8860b;
+    font-weight: bold;
+  }
+  
+  .styledButton::selection {
+    color: #b8860b;
+    font-weight: bold;
+  }
+  
+  .styledButton3:hover {
+    color: black;
+    background-color: #90A4AE;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .styledTypography {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .styledTypography3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .styledIconButton {
+    color: gray;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .styledIconButton:hover {
+    color: black;
+  }
+  
+  .joinButton {
+    border: 2px solid #b8860b;
+    background-color: #FAFAFA;
+    color: #b8860b;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 20px;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  
+  .joinButton:hover {
+    border: 2px solid #FFA726;
+    background-color: #FAFAFA;
+    color: #FFA726;
+  }
+  
+  .subAppBar {
+    background-color: white;
+    color: #B0BEC5;
+    top: 64px;
+    position: fixed;
+    width: 100%;
+    z-index: 1090;
+  }
+  
+  .subToolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 16px;
+    gap: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  /* Updated Dropdown Menu Styles */
+  .subMenuOption {
+    position: relative;
+    margin-top: 15px;
+  }
+  
+  .styledButton2 {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #9E9E9E;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .styledButton2:hover {
+    color: black;
+  }
+  
+  .dropdownIcon {
+    margin-left: 5px;
+    transition: color 0.3s;
+  }
+  
+  .styledButton2:hover .dropdownIcon {
+    color: black;
+  }
+  
+  .dropdownContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(100% + 10px); /* Adjust the space between MoreIcon and dropdown */
+    background-color: white;
+    border: 1px solid #CFD8DC;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 150px;
+    gap: 10px;
+    padding: 10px;
+    overflow: hidden;  /* Ensure hover effects do not extend outside */
+  }
+  
+  .dropdownContent2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 10px); /* Adjust the space between MoreIcon and dropdown */
+    background-color: white;
+    border: 1px solid #CFD8DC;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 150px;
+    gap: 10px;
+    padding: 8px;
+    overflow: hidden;  /* Ensure hover effects do not extend outside */
+    border-radius: 6px;
+  }
+  
+  .dropdownItem {
+    padding: 10px 20px;
+    width: 100%;
+    color: #9E9E9E;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #CFD8DC;
+    color: black;
+  }
+  
+  /* Responsive Adjustments */
+  .desktopMenu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .mobileMenuButton {
+    display: none;
+  }
+  
+  .mobileDropdown {
+    right: 20px;
+  }
+  
+  @media (max-width: 1500px) {
+    .search {
+      width: 300px;
+    }
+    .desktopMenu {
+      gap: 25px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .search {
+      width: 300px;
+    }
+    .desktopMenu {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .search {
+      width: 300px;
+      margin-left: 80px;
+    }
+    .desktopMenu {
+      display: none;
+    }
+    .mobileMenuButton {
+      display: flex;
+    }
+    .scrollableContainer {
+      overflow-x: auto;
+      display: flex;
+      padding-bottom: 10px; /* Add padding to avoid scrollbar overlapping */
+    }
+    .scrollableContainer::-webkit-scrollbar {
+      display: none; /* Hide scrollbar */
+    }
+    .dropdownContent {
+      position: fixed; /* Fixed position instead of absolute */
+      top: 140px; /* Adjusted top position */
+      right: 26px; /* Adjusted right position */
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .search {
+      width: 300px;
+      margin-left: 50px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .search {
+      width: 300px;
+      margin-left: 20px;
+    }
+    .joinButton {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .search {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .joinButton {
+      font-size: 14px;
+      padding: 4px 10px;
+    }
+    .mitTypography {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .search {
+      width: auto;
+    }
+  }

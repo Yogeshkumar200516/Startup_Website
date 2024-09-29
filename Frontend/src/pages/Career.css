@@ -1,0 +1,246 @@
+/* General Styles */
+.career-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, #f9f2de, #f1d693, #f0c046, #f9eccc);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+  
+  .explore-positions-btn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-positions-btn:hover {
+    background-color: #003d7a;
+  }
+  
+  /* Company Culture */
+  .company-culture {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .company-culture h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .company-culture p {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+  }
+  
+  .company-culture ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .company-culture li {
+    font-size: 1.125rem;
+    margin: 10px 0;
+  }
+  
+  /* Current Openings */
+  .current-openings {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .current-openings h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .job-cards {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .job-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .job-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-card p {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+  }
+  
+  .job-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-card li {
+    font-size: 1.125rem;
+    margin: 5px 0;
+  }
+  
+  .apply-btn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #003d7a;
+  }
+  
+  /* Employee Benefits */
+  .employee-benefits {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .employee-benefits h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .employee-benefits ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .employee-benefits li {
+    font-size: 1.125rem;
+    margin: 10px 0;
+  }
+  
+  /* Application Process */
+.application-process {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .application-process h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .process-steps-total {
+    display: flex;
+    gap: 15px;
+  }
+
+  .process-step {
+    margin-bottom: 20px;
+  }
+
+  .process-step:hover {
+    color: white;
+    background-color: #b8860b;
+  }
+  
+  .process-step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .process-step p {
+    font-size: 1.125rem;
+    margin: 0;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 60px 20px;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial h3 {
+    font-size: 1.25rem;
+    color: #0056b3;
+  }
+  
+  /* Final Call to Action */
+  .apply-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .apply-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .apply-section p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .apply-section .explore-positions-btn {
+    background-color: #fff;
+    color: #0056b3;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .apply-section .explore-positions-btn:hover {
+    background-color: #e0e0e0;
+    color: #003d7a;
+  }
+  
+  

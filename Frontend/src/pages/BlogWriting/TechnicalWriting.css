@@ -1,0 +1,234 @@
+/* TechnicalWriting.css */
+
+/* General Styles */
+.tech-page-container {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    
+    margin: 0 auto;
+  }
+  
+  /* Title Section */
+  .tech-banner-section {
+    /* background: linear-gradient(135deg, #1a73e8, #4285f4); */
+    background-image: url('../../assets/images/back5.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .tech-banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  .tech-banner-content p {
+    font-size: 1.2rem;
+  }
+  
+  /* What is Technical Writing */
+  .tech-what-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech-what-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .tech-what-content p {
+    font-size: 1.1rem;
+  }
+  
+  /* Our Services */
+  .tech-services-section {
+    margin-bottom: 50px;
+  }
+  
+  .tech-services-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .tech-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .tech-service-card {
+    background-color: #e0f7fa;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tech-service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #b8860b;
+    color: white;
+  }
+  
+  .tech-service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tech-service-card p, .tech-service-card ul {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .tech-service-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tech-service-card li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .tech-service-card li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #1a73e8;
+  }
+  
+  /* Process Section */
+  .tech-process-section {
+    background: #e8f0fe;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech-process-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .tech-process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .tech-process-step {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tech-process-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tech-process-step h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Why Choose Us Section */
+  .tech-why-section {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .tech-why-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .tech-why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .tech-why-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .tech-why-card:hover {
+    background-color: #f8bbd0;
+    color: white;
+  }
+  
+  .tech-why-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tech-why-card p {
+    font-size: 1rem;
+  }
+  
+  /* CTA Section */
+  .tech-cta-section {
+    background: linear-gradient(135deg, #f5e9cd,#f5ce6c,#f6e7c3,#b8860b);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .tech-cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .tech-cta-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .tech-banner-section, .tech-cta-section {
+      padding: 40px 10px;
+    }
+  
+    .tech-services-grid, .tech-process-grid, .tech-why-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .tech-service-card, .tech-process-step, .tech-why-card {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .tech-process-section {
+      padding: 40px 10px;
+    }
+  }
+  

@@ -1,0 +1,183 @@
+/* OurProducts.css */
+
+.products-container {
+    padding: 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .products-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .products-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .project-details {
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .project-highlights {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-highlights li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .project-highlights li:before {
+    content: '•';
+    color: #007BFF;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Metrics Section */
+  .metrics-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .metrics-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .metrics-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .metric-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metric-value {
+    font-size: 2rem;
+    color: #007BFF;
+  }
+  
+  .metric-title {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .testimonials-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-feedback {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial-name {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px;
+    background-color: #b8860b;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005bb5;
+    color: #fff;
+  }
+  

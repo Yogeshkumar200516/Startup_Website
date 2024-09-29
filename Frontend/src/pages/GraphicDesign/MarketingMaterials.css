@@ -1,0 +1,278 @@
+/* MarketingMaterials.css */
+
+.marketing-materials-page-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .marketing-materials-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #f5edd8, #f8d889, #ecdcb3, #d8a931);
+    color: #fff;
+  }
+  
+  .marketing-materials-hero-content {
+    max-width: 50%;
+  }
+  
+  .marketing-materials-hero-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-hero-subheading {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .marketing-materials-cta-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .marketing-materials-cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .marketing-materials-hero-image img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .marketing-materials-introduction-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .marketing-materials-introduction-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-introduction-paragraph {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .marketing-materials-services-section {
+    padding: 60px 20px;
+  }
+  
+  .marketing-materials-services-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .marketing-materials-service-cards {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  
+  .marketing-materials-service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .marketing-materials-service-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-service-description {
+    font-size: 1rem;
+  }
+  
+  .marketing-materials-why-choose-us-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .marketing-materials-why-choose-us-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-why-choose-us-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .marketing-materials-why-choose-us-item {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .marketing-materials-process-section {
+    padding: 60px 20px;
+  }
+  
+  .marketing-materials-process-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .marketing-materials-process-steps {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .marketing-materials-process-step {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .marketing-materials-process-step:hover {
+    transform: translateY(-10px);
+  }
+  
+  .marketing-materials-process-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-process-description {
+    font-size: 1rem;
+  }
+  
+  .marketing-materials-portfolio-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .marketing-materials-portfolio-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-case-study {
+    margin-bottom: 20px;
+  }
+  
+  .marketing-materials-case-study-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-case-study-client {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .marketing-materials-testimonials-section {
+    padding: 60px 20px;
+  }
+  
+  .marketing-materials-testimonials-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .marketing-materials-testimonials {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .marketing-materials-testimonial {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+
+  .marketing-materials-testimonial:hover {
+    background: #b8860b;
+    color: white;
+    transform: translateY(-10px);
+  }
+  
+  .marketing-materials-testimonial-text {
+    font-size: 1rem;
+  }
+  
+  .marketing-materials-blog-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .marketing-materials-blog-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .marketing-materials-blog-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .marketing-materials-cta-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #cbddf1, #007bff, #94c3f4, #007bff);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .marketing-materials-cta-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .marketing-materials-cta-paragraph {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .marketing-materials-cta-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .marketing-materials-cta-button:hover {
+    background-color: #f8f9fa;
+    color: #0056b3;
+  }
+  

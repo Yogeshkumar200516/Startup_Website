@@ -1,0 +1,325 @@
+/* General Styles */
+.internship-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/path-to-your-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .apply-now-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Why Intern Section */
+  .why-intern {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .why-intern h2 {
+    font-size: 2.75rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .why-intern p {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .why-intern ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .why-intern ul li {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.125rem;
+  }
+  
+  /* Internship Positions */
+  .internship-positions {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+  }
+  
+  .internship-positions h2 {
+    text-align: center;
+    font-size: 2.75rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .position-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 auto 40px;
+    max-width: 600px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .position-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .position-card h3 {
+    font-size: 1.75rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .position-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .position-card ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /* Application Process */
+  .application-process {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .application-process h2 {
+    font-size: 2.75rem;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  .process-steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .step:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .step h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Perks & Benefits */
+  .perks-benefits {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+  }
+  
+  .perks-benefits h2 {
+    text-align: center;
+    font-size: 2.75rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .perks-benefits ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .perks-benefits ul li {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.125rem;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background-color: #ffffff;
+    padding: 60px 20px;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    font-size: 2.75rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 2.75rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .faq-item {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Final Call to Action */
+  .apply-section {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .apply-section h2 {
+    font-size: 2.75rem;
+    margin-bottom: 20px;
+  }
+  
+  .apply-section p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .apply-section .apply-now-btn {
+    background-color: #ffffff;
+    color: #007bff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .apply-section .apply-now-btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .process-steps {
+      flex-direction: column;
+    }
+  
+    .step {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .apply-now-btn {
+      padding: 10px 20px;
+    }
+  }
+  

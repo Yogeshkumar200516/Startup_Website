@@ -1,0 +1,228 @@
+/* General Styles */
+.mobileAppContainer {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+  }
+  
+  /* Hero Section */
+  .mobileAppHeroSection {
+    position: relative;
+    text-align: center;
+    background-image: url('../../assets/images/back1.jpeg'); /* Replace with your local image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mobileAppHeroTitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .mobileAppHeroSubtitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Introduction Section */
+  .mobileAppIntroSection {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .mobileAppIntroTitle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  /* Introduction Section (continued) */
+.mobileAppIntroText {
+    font-size: 18px;
+    color: #7f8c8d;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Services Section */
+  .mobileAppServicesSection {
+    padding: 60px 20px;
+  }
+  
+  .mobileAppSectionTitle {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+  }
+  
+  .mobileAppServicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .mobileAppServiceCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .mobileAppServiceCard:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .mobileAppServiceTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #e67e22;
+  }
+  
+  .mobileAppServiceDescription {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .mobileAppServiceBenefits {
+    font-size: 14px;
+    color: #95a5a6;
+  }
+  
+  /* Why Choose Us Section */
+  .mobileAppWhyChooseUsSection {
+    padding: 60px 20px;
+  }
+  
+  .mobileAppWhyChooseUsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #34495e;
+  }
+  
+  .mobileAppWhyChooseUsList li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Technologies Section */
+  .mobileAppTechnologiesSection {
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .mobileAppTechnologiesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .mobileAppTechIcon {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #dfe6e9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .mobileAppTechIcon:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Process Section */
+  .mobileAppProcessSection {
+    padding: 60px 20px;
+  }
+  
+  .mobileAppProcessSteps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .mobileAppProcessStep {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobileAppProcessTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e67e22;
+    margin-bottom: 15px;
+  }
+  
+  .mobileAppProcessDescription {
+    font-size: 16px;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  /* CTA Section */
+  .mobileAppCTASection {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .mobileAppCTATitle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .mobileAppCTADescription {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .mobileAppCTAButton {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .mobileAppCTAButton:hover {
+    background-color: #d35400;
+    transform: translateY(-3px);
+  }
+  

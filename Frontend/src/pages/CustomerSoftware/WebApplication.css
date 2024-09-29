@@ -1,0 +1,229 @@
+/* General Styles */
+.webAppContainer {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    padding: 0 40px;
+    line-height: 1.6;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .webAppHeroSection {
+    text-align: center;
+    background-image: url('../../assets/images/back2.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 80px 20px;
+    margin-bottom: 60px;
+  }
+  
+  .webAppHeroTitle {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .webAppHeroSubtitle {
+    font-size: 22px;
+    color: white;
+  }
+  
+  /* Introduction Section */
+  .webAppIntroSection {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .webAppIntroText {
+    font-size: 20px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  /* Section Titles */
+  .webAppSectionTitle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  /* Services Section */
+  .webAppServicesSection {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .webAppServicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+  }
+  
+  .webAppServiceCard {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .webAppServiceCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .webAppServiceTitle {
+    font-size: 24px;
+    color: #b8860b;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .webAppServiceDescription {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Why Choose Us Section */
+  .webAppWhyChooseUsSection {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .webAppWhyChooseUsList {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .webAppWhyChooseUsList li {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .webAppWhyChooseUsList li::before {
+    content: '✔';
+    font-size: 20px;
+    color: #b8860b;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Technologies Section */
+  .webAppTechnologiesSection {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+  }
+  
+  .webAppTechnologiesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .webAppTechIcon {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #666;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .webAppTechIcon:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Process Section */
+  .webAppProcessSection {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .webAppProcessList {
+    list-style: none;
+    padding-left: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .webAppProcessList li {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  .webAppProcessList li::before {
+    content: '➤';
+    font-size: 18px;
+    color: #b8860b;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* CTA Section */
+  .webAppCTASection {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  .webAppCTATitle {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .webAppCTADescription {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .webAppCTAButton {
+    background-color: #b8860b;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .webAppCTAButton:hover {
+    background-color: #FFA726;
+    transform: translateY(-5px);
+  }
+
+  .techLogo {
+    height: 40px;
+    width: 40px;
+  }
+  

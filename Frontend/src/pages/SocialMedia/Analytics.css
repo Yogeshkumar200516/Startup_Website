@@ -1,0 +1,377 @@
+/* General Styles for the Analytics Page */
+.analytics-page-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .analytics-hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1983f5, #a5c9f0, #52a4fb, #9bc8f8);
+    color: #fff;
+  }
+  
+  .analytics-hero-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .analytics-hero-heading {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .analytics-hero-subheading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .analytics-cta-button {
+    padding: 12px 24px;
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analytics-cta-button:hover {
+    background-color: #FFBF00;
+  }
+  
+  .analytics-hero-image {
+    flex: 1;
+    min-width: 500px;
+    text-align: center;
+  }
+  
+  .analytics-hero-image img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Introduction Section */
+  .analytics-introduction-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .analytics-introduction-heading {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .analytics-introduction-text {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Services Section */
+  .analytics-services-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .analytics-services-heading {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-service-card {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    height: 320px;
+    vertical-align: top;
+  }
+
+  .analytics-service-card :hover {
+    transform: translateY(-10px);
+  }
+  
+  .analytics-service-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .analytics-service-description {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .analytics-service-card {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .analytics-service-card {
+      width: 100%;
+    }
+  }
+  
+  /* Why Choose Us Section */
+  .analytics-why-choose-us-section {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .analytics-why-choose-us-heading {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .analytics-why-choose-us-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .analytics-why-choose-us-item {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  .analytics-why-choose-us-item::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+  }
+  
+  /* Process Section */
+  .analytics-process-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .analytics-process-heading {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-process-step {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    height: 260px;
+  }
+
+  .analytics-process-step:hover {
+    transform: translateY(-10px);
+    background-color: #FFBF00;
+    color: white;
+  }
+  
+  .analytics-process-step-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .analytics-process-step-description {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .analytics-process-step {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .analytics-process-step {
+      width: 100%;
+    }
+  }
+  
+  /* Case Studies Section */
+  .analytics-portfolio-section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .analytics-portfolio-heading {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-case-study {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    height: 280px;
+  }
+  
+  .analytics-case-study-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .analytics-case-study-description {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .analytics-case-study {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .analytics-case-study {
+      width: 100%;
+    }
+  }
+  
+  /* Testimonials Section */
+  .analytics-testimonials-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .analytics-testimonials-heading {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-testimonial {
+    background-color: #b8860b;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+    height: 220px;
+    color: white;
+  }
+  
+  .analytics-testimonial-text {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .analytics-testimonial {
+      width: 100%;
+    }
+  }
+  
+  /* Blog Section */
+  .analytics-blog-section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .analytics-blog-heading {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+  }
+  
+  .analytics-blog-post {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    height: 220px;
+  }
+  
+  .analytics-blog-post-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .analytics-blog-post {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .analytics-blog-post {
+      width: 100%;
+    }
+  }
+  
+  /* Call to Action Section */
+  .analytics-cta-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8ecce, #f4c551, #eed8a2, #ebac0d);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .analytics-cta-heading {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .analytics-cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .analytics-cta-button {
+    font-weight: bold;
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analytics-cta-button:hover {
+    background-color: #FFBF00;
+  }
+  

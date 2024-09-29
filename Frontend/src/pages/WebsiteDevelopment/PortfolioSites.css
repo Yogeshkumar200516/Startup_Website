@@ -1,0 +1,126 @@
+.enhanced-portfolio-container {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .enhanced-intro-banner {
+    height: 400px;
+    background-image: url("../../assets/images/back4.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro-text h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .enhanced-vision-section h2,
+  .enhanced-approach-section h2,
+  .enhanced-process-section h2,
+  .enhanced-skills-section h2,
+  .enhanced-contact-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .enhanced-project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .enhanced-project-item {
+    flex: 1 1 300px;
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .enhanced-project-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .enhanced-project-item h3 {
+    color: #b8860b;
+  }
+  
+  .enhanced-approach-section .approach-content {
+    background: #f9fafb;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  .process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .process-step {
+    flex: 1 1 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .process-step:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills-showcase {
+    text-align: center;
+    padding: 2rem;
+    background: #f7f8fa;
+    border-radius: 12px;
+  }
+  
+  .skills-showcase p {
+    font-size: 18px;
+  }
+  
+  .skills-showcase span {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .enhanced-contact-section {
+    text-align: center;
+    padding: 2rem;
+    background: #b8860b;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  .enhanced-contact-section p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .enhanced-project-list, .process-steps {
+      flex-direction: column;
+    }
+  }
+  

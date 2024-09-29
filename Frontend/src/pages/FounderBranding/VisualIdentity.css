@@ -1,0 +1,206 @@
+/* VisualIdentity.css */
+
+/* General Page Styling */
+.visual-identity-page {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  .visual-identity-header {
+    background: linear-gradient(135deg, #f6e2af, #f4d077, #f2e6c7, #b8860b);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .visual-identity-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .visual-identity-header p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .visual-identity-header span {
+    color: #FFD700;
+    font-weight: bold;
+  }
+  
+  /* Sections Styling */
+  section {
+    padding: 60px 20px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #FF69B4;
+    margin: 10px auto 0;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Power of Visual Identity Section */
+  .power-of-visual-identity {
+    background: #eaf2f8;
+  }
+  
+  .power-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .power-item {
+    background: white;
+    padding: 30px;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .power-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Visual Identity Services Section */
+  .visual-identity-services {
+    background: #f9f9f9;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .service-item {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Our Process Section */
+  .our-process {
+    background: #fafafa;
+  }
+  
+  .process-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .process-step {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .process-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    background: #f0f8ff;
+  }
+  
+  .why-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .why-item {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+  }
+  
+  .why-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  .contact-us {
+    background: linear-gradient(135deg, #e3de77, #6e8efb);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact-us p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .power-item, .service-item, .process-step, .why-item {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .visual-identity-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .visual-identity-header p, .contact-us p {
+      font-size: 1rem;
+    }
+  }
+  

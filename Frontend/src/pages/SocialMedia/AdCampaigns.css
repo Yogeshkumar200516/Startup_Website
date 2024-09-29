@@ -1,0 +1,235 @@
+/* General Page Styles */
+.ad-campaign-unique-page {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  /* Hero Section */
+  .ad-campaign-unique-hero {
+    background: linear-gradient(to right, #2b8de6, #56b5f5);
+    color: #fff;
+    text-align: center;
+    padding: 80px 5%;
+  }
+  
+  .ad-campaign-unique-hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .ad-campaign-unique-hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .ad-campaign-unique-cta-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #2b8de6;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .ad-campaign-unique-cta-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Section Titles */
+  .ad-campaign-unique-section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ad-campaign-unique-section-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 50px;
+    height: 4px;
+    background-color: #2b8de6;
+    transform: translateX(-50%);
+  }
+  
+  /* Introduction */
+  .ad-campaign-unique-introduction,
+  .ad-campaign-unique-approach,
+  .ad-campaign-unique-services,
+  .ad-campaign-unique-why-choose-us,
+  .ad-campaign-unique-portfolio,
+  .ad-campaign-unique-testimonials,
+  .ad-campaign-unique-blog {
+    padding: 60px 5%;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 0 auto 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Introduction */
+  .ad-campaign-unique-intro-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Our Approach */
+  .ad-campaign-unique-approach-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  .ad-campaign-unique-approach-list li {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .ad-campaign-unique-approach-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #2b8de6;
+  }
+  
+  /* Services */
+  .ad-campaign-unique-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background-color: #e8eaf6;
+  }
+  
+  .ad-campaign-unique-service-card {
+    background-color: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .ad-campaign-unique-service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .ad-campaign-unique-service-card p {
+    font-size: 1rem;
+  }
+  
+  .ad-campaign-unique-service-card:hover {
+    transform: translateY(-10px);
+    background-color: #b8860b;
+    color: white;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Why Choose Us */
+  .ad-campaign-unique-why-choose-us {
+    background-color: #fce4ec;
+  }
+
+  .ad-campaign-unique-why-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .ad-campaign-unique-why-list li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .ad-campaign-unique-why-list li::before {
+    content: "⭐";
+    position: absolute;
+    left: 0;
+    color: #ffbb33;
+  }
+  
+  /* Testimonials */
+  .ad-campaign-unique-testimonial {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2b8de6;
+    font-style: italic;
+  }
+  
+  .ad-campaign-unique-testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* CTA */
+  .ad-campaign-unique-cta {
+    text-align: center;
+    padding: 60px 5%;
+    background: linear-gradient(to right, #2b8de6, #56b5f5);
+    color: #fff;
+  }
+  
+  .ad-campaign-unique-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .ad-campaign-unique-cta-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #2b8de6;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .ad-campaign-unique-cta-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Portfolio Section */
+  .ad-campaign-unique-portfolio {
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .ad-campaign-unique-portfolio p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Blog Section */
+  .ad-campaign-unique-blog {
+    text-align: center;
+  }
+  
+  .ad-campaign-unique-blog p {
+    font-size: 1.1rem;
+  }
+  

@@ -1,0 +1,214 @@
+/* Container Styles */
+.enterpriseSoftwareContainer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.enterpriseHeroSection {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/back3.jpeg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.enterpriseHeroTitle {
+  font-size: 3.5em;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.enterpriseHeroSubtitle {
+  font-size: 1.5em;
+  margin: 20px 0 0;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Intro Section */
+.enterpriseIntroSection {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  text-align: center;
+  border-top: 3px solid #007bff;
+}
+
+.enterpriseSectionTitle {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.enterpriseIntroText {
+  font-size: 1.2em;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Services Section */
+.enterpriseServicesSection {
+  padding: 60px 20px;
+  background: #fff;
+  border-top: 1px solid #e9ecef;
+}
+
+.enterpriseServicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.enterpriseServiceCard {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.enterpriseServiceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.enterpriseServiceTitle {
+  font-size: 1.6em;
+  margin-top: 0;
+  font-weight: 700;
+  color: #b8860b;
+}
+
+.enterpriseServiceDescription {
+  font-size: 1em;
+  margin: 15px 0;
+  color: #666;
+}
+
+.enterpriseServiceBenefits {
+  font-size: 0.9em;
+  color: #b8860b;
+}
+
+/* Technologies Section */
+.enterpriseTechSection {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  text-align: center;
+  border-top: 1px solid #e9ecef;
+}
+
+.enterpriseTechGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.enterpriseTechIcon {
+  background: white;
+  color: #616161;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.enterpriseTechIcon:hover {
+  background: #ffa000;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Process Section */
+.enterpriseProcessSection {
+  padding: 60px 20px;
+  background: #fff;
+  border-top: 1px solid #e9ecef;
+}
+
+.enterpriseProcessSteps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.enterpriseProcessStep {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 280px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s, box-shadow 0.3s;
+}
+
+.enterpriseProcessStep:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  background-color: #ffa000;
+  color: white;
+}
+
+.enterpriseProcessTitle {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: 700;
+  
+}
+
+.enterpriseProcessDescription {
+  font-size: 1em;
+  margin: 15px 0 0;
+
+}
+
+/* Call-to-Action Section */
+.enterpriseCTASection {
+  padding: 60px 20px;
+  background: #b8860b;
+  color: #fff;
+  text-align: center;
+}
+
+.enterpriseCTATitle {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.enterpriseCTADescription {
+  font-size: 1.2em;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.enterpriseCTAButton {
+  background-color: #ffb300;
+  color: white;
+  padding: 15px 40px;
+  font-size: 18px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.enterpriseCTAButton:hover {
+  background-color: #d35400;
+  transform: translateY(-5px);
+}

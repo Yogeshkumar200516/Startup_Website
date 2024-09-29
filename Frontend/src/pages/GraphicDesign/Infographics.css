@@ -1,0 +1,294 @@
+/* General Page Container */
+.infographics-page-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Hero Section */
+  .infographics-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #b5cee9, #edddb5, #b7f0ea, #eecabf);
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+  }
+  
+  .infographics-hero-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .infographics-hero-heading {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .infographics-hero-subheading {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .infographics-cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .infographics-cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .infographics-hero-image img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Introduction Section */
+  .infographics-introduction-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .infographics-introduction-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .infographics-introduction-paragraph {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Our Services Section */
+  .infographics-services-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .infographics-services-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .infographics-service-card {
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: calc(33.333% - 30px);
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .infographics-service-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #b8860b;
+    margin-bottom: 10px;
+  }
+  
+  .infographics-service-description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Why Choose Us Section */
+  .infographics-why-choose-us-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .infographics-why-choose-us-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .infographics-why-choose-us-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .infographics-why-choose-us-item {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Our Process Section */
+  .infographics-process-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .infographics-process-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .infographics-process-step {
+    margin-bottom: 30px;
+  }
+  
+  .infographics-process-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .infographics-process-description {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Infographics Portfolio Section */
+  .infographics-portfolio-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .infographics-portfolio-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .infographics-case-study {
+    margin-bottom: 30px;
+  }
+  
+  .infographics-case-study-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .infographics-case-study-client {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Testimonials Section */
+  .infographics-testimonials-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .infographics-testimonials-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .infographics-testimonial {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .infographics-testimonial-text {
+    font-size: 1.2em;
+    color: #666;
+    font-style: italic;
+  }
+  
+  /* Blog Section */
+  .infographics-blog-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .infographics-blog-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .infographics-blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .infographics-blog-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Call to Action Section */
+  .infographics-cta-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #d3e4f6, #60a9f6, #c0d6ed, #007bff);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .infographics-cta-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .infographics-cta-paragraph {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .infographics-cta-button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .infographics-cta-button:hover {
+    background-color: #e6e6e6;
+    color: #0056b3;
+  }
+  

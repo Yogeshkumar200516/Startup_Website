@@ -1,0 +1,170 @@
+.ecommerce-container {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .ecommerce-header {
+    background-image: url("../../assets/images/back4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+  }
+  
+  .ecommerce-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+  
+  .ecommerce-header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+
+  .ecommerce-services,
+  .ecommerce-tech-stack,
+  .ecommerce-process,
+  .ecommerce-testimonials,
+  .ecommerce-industries,
+  .ecommerce-footer {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;/* Tech Stack */
+    .ecommerce-tech-stack {
+      padding: 40px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+    
+    .tech-stack-cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .tech-card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      flex-basis: 20%; /* Cards will occupy about 22% width of the container */
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .tech-card:hover {
+      transform: translateY(-10px);
+    }
+    
+    .tech-icon {
+      font-size: 2.5rem;
+      color: #0d47a1;
+      margin-bottom: 0px;
+    }
+    
+    /* Process Section */
+    .ecommerce-process {
+      padding: 40px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+    
+    .process-steps {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .process-step {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      flex-basis: 18%; /* Cards will occupy about 18% width of the container */
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .process-step:hover {
+      transform: translateY(-10px);
+    }
+    
+    .process-icon {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ecommerce-services h2,
+  .ecommerce-tech-stack h2,
+  .ecommerce-process h2,
+  .ecommerce-testimonials h2,
+  .ecommerce-industries h2,
+  .ecommerce-footer h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    text-align: center;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  blockquote {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #333;
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  footer.ecommerce-footer {
+    text-align: center;
+    background-color: #b8860b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  
+
+  
+  

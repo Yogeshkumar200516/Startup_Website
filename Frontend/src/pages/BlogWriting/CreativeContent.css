@@ -1,0 +1,191 @@
+/* CreativeContent.css */
+
+/* General Styles */
+.creative-page-container {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .creative-hero-section {
+    /* background: linear-gradient(135deg, #ff6f61, #f76c6c); */
+    background-image: url('../../assets/images/back5.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .creative-hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  .creative-hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  /* Creative Services */
+  .creative-services-section {
+    margin-bottom: 50px;
+  }
+  
+  .creative-services-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .creative-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .creative-service-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .creative-service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #b8860b;
+    color: white;
+  }
+  
+  .creative-service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .creative-service-card p {
+    font-size: 1rem;
+  }
+  
+  /* Process Section */
+  .creative-process-section {
+    background: #f0f4f8;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .creative-process-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .creative-process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .creative-process-step {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .creative-process-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .creative-process-step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .creative-process-step p {
+    font-size: 1rem;
+  }
+  
+  /* Why Choose Us Section */
+  .creative-why-section {
+    margin-bottom: 50px;
+  }
+  
+  .creative-why-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .creative-why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .creative-why-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .creative-why-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #fce4ec;
+  }
+  
+  .creative-why-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .creative-why-card p {
+    font-size: 1rem;
+  }
+  
+  /* CTA Section */
+  .creative-cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f1e0b5, #ecba3c, #fae5b1, #efac03);
+  }
+  
+  .creative-cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .creative-cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .creative-cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #b8860b;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .creative-cta-button:hover {
+    background-color: #f76c6c;
+    transform: scale(1.05);
+  }
+  
