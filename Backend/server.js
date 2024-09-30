@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 const corsOptions = {
-    origin: 'https://mahisha-india-technologies.vercel.app/', // Allow your frontend URL
+    origin: 'https://mahisha-india-technologies.vercel.app', // Allow your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
     credentials: true, // Enable sending of cookies if necessary
     optionsSuccessStatus: 200 // Some legacy browsers choke on 204
