@@ -39,7 +39,7 @@ This website serves as a digital portfolio and service showcase for a startup co
 ## 📸 **Project Screenshots**
 Add screenshots of the website pages below to give viewers a visual preview of the project.
 
-- **Homepage:** ![Homepage](./Frontend/src/assets/images/GIT-2.jpeg)
+- **Homepage:** ![Homepage](./Frontend/src/assets/images/GIT-1.jpeg)
 - **Page1:** ![Page1](./Frontend/src/assets/images/GIT-2.jpeg)
 - **Page2:** ![Page1](./Frontend/src/assets/images/GIT-3.jpeg)
 - **Page3:** ![Page1](./Frontend/src/assets/images/GIT-4.jpeg)
