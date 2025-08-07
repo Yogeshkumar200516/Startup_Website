@@ -56,7 +56,7 @@ Add screenshots of the website pages below to give viewers a visual preview of t
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Startup_Website.git
+   git clone https://github.com/Yogeshkumar200516/Startup_Website.git
    ```
 2. **Navigate to the Project Folder:**
    ```bash
@@ -92,7 +92,7 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 ---
 
 ## 📬 **Contact**
-If you have any questions or want to collaborate, feel free to reach out via email at `youremail@example.com`.
+If you have any questions or want to collaborate, feel free to reach out via email at `yogeshkumar.s.radha@gmail.com`.
 
 ---
 
@@ -102,3 +102,4 @@ If you have any questions or want to collaborate, feel free to reach out via ema
 ⭐ **Show some love by giving this project a star!** ⭐
 
 Happy Coding! 🎉
+
